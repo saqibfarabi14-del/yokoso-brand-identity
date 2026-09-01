@@ -1,1 +1,246 @@
-__FULL_HTML__
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YOKOSO — Brand Identity Guidelines</title>
+<link href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Liter&family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--red:#F02328;--sumi:#131316;--ink:#1E1E22;--rice:#F6F2EA;--gold:#C9A45C;--grey:#8A8578}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Liter',sans-serif;background:#0C0C0E;color:var(--ink)}
+.serif{font-family:'Oranienbaum','Noto Serif JP',serif}
+.jp{font-family:'Noto Serif JP',serif}
+.page{max-width:1100px;margin:0 auto 8px;padding:72px 56px;min-height:100vh;display:flex;flex-direction:column;justify-content:center}
+.dark{background:var(--sumi);color:var(--rice)}
+.light{background:var(--rice)}
+.label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--grey);margin-bottom:24px}
+h1.display{font-size:clamp(36px,5vw,64px);font-weight:400;line-height:1.1}
+.gold{color:var(--gold)}.red{color:var(--red)}
+p.body{font-size:15px;line-height:1.8;max-width:640px}
+.mut{color:#B9B4A8}.mutl{color:var(--grey)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}.page{padding:40px 22px}}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px;margin-top:32px}
+.tile{padding:28px;text-align:center}
+.cap{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--grey);margin-top:14px}
+.swatch{min-height:260px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff}
+.swatch h3{font-size:17px;margin-bottom:4px}
+.swatch p{font-size:12.5px;opacity:.85;line-height:1.6}
+ul.rules{list-style:none;font-size:14px;line-height:2.1}
+.rule{height:1px;background:#E0DACC;margin:30px 0}
+.cardbox{box-shadow:0 12px 30px rgba(19,19,22,.25)}
+footer.page{min-height:auto;flex-direction:row;justify-content:space-between;align-items:center;padding:26px 56px;background:#0C0C0E;color:var(--grey);font-size:11px;letter-spacing:2px}
+.mk{display:block;margin:0 auto}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<g id="markg" fill="none" stroke="currentColor">
+<circle cx="100" cy="100" r="84" stroke-width="15" stroke-dasharray="520 8" stroke-linecap="round"/>
+<path d="M100,26 C139,66 139,134 100,174 C61,134 61,66 100,26 Z" stroke-width="7"/>
+<path d="M100,174 C48,150 34,84 66,40" stroke-width="7"/>
+<path d="M100,174 C152,150 166,84 134,40" stroke-width="7"/>
+<path d="M100,174 C72,196 44,192 30,170" stroke-width="7"/>
+<path d="M100,174 C128,196 156,192 170,170" stroke-width="7"/>
+</g>
+</defs></svg>
+
+<section class="page dark">
+  <div style="display:flex;gap:48px;align-items:center;flex-wrap:wrap">
+    <div style="flex:1;min-width:280px">
+      <p class="label gold">Brand Identity Guidelines · ブランド</p>
+      <div style="width:56px;height:4px;background:var(--red);margin:20px 0"></div>
+      <h1 class="display serif" style="letter-spacing:6px">YŌKOSO</h1>
+      <p class="jp red" style="font-size:24px;margin:18px 0 24px">ようこそ — a warm welcome</p>
+      <p class="body mut">Pan-Asian restaurant · 2nd Floor, Al-Madani Tower, Sylhet<br>Identity system, logo usage, colour, typography &amp; applications</p>
+      <p class="label" style="margin-top:52px;margin-bottom:0">Version 1.0 · 2026</p>
+    </div>
+    <svg class="mk" viewBox="0 0 200 200" style="width:min(320px,64vw);color:var(--red)"><use href="#markg"/></svg>
+  </div>
+</section>
+
+<section class="page light">
+  <p class="label">01 — Brand Essence</p>
+  <div style="position:relative">
+    <span class="jp" style="position:absolute;right:0;top:-24px;font-size:clamp(56px,8vw,110px);color:#F0232818;pointer-events:none">ようこそ</span>
+    <h1 class="display serif" style="font-size:clamp(30px,4.2vw,50px);max-width:700px">“Yōkoso” means <span class="red">welcome</span> —<br>and welcome is the whole brand.</h1>
+  </div>
+  <p class="body mutl" style="margin-top:26px">From its second-floor dining room above Al-Madani Tower, YOKOSO has become one of Sylhet's most loved tables — a 4.3★ rated pan-Asian restaurant where Japanese, Thai, Chinese and Korean flavours meet Bangladeshi hospitality.</p>
+  <p class="body mutl" style="margin-top:12px">The identity translates that spirit visually: the brush-drawn circle (an ensō of arrival), lantern-petal geometry, and a warm red that reads across a busy street.</p>
+  <div class="tiles">
+    <div style="background:var(--sumi);padding:24px;color:var(--rice);text-align:left"><strong class="gold" style="letter-spacing:2px">WELCOMING</strong><p style="font-size:13.5px;color:#B9B4A8;margin-top:8px;line-height:1.6">Every guest is received like an honoured arrival.</p></div>
+    <div style="background:var(--red);padding:24px;color:#fff;text-align:left"><strong style="letter-spacing:2px">PAN-ASIAN</strong><p style="font-size:13.5px;color:#FFD9D9;margin-top:8px;line-height:1.6">Many Asian kitchens, one confident table.</p></div>
+    <div style="border:1px solid var(--gold);padding:24px;text-align:left"><strong class="red" style="letter-spacing:2px">REFINED</strong><p style="font-size:13.5px;color:var(--grey);margin-top:8px;line-height:1.6">Premium without pretension — Sylhet's special-occasion room.</p></div>
+  </div>
+  <p class="body mutl" style="margin-top:30px;font-size:14px">Tone of voice: warm, assured, hospitable. We say “welcome”, not “luxury”.<br>Signature sign-off: <span class="red jp">ようこそ、YOKOSOへ。</span></p>
+</section>
+
+<section class="page light" style="padding-top:0">
+  <p class="label">02 — Logo System</p>
+  <h1 class="display serif" style="font-size:38px">The mark of arrival</h1>
+  <div class="grid2" style="margin-top:26px">
+    <div>
+      <p class="body mutl" style="font-size:14px">The brush-drawn ring is an <strong>ensō</strong> — a circle of welcome — opened into lantern petals at its heart. It is never redrawn, recoloured outside the palette, or set over busy photography.</p>
+      <p class="body mutl" style="font-size:14px;margin-top:10px"><strong>Clear space</strong> = height of the central petal on all sides. <strong>Minimum width</strong>: 24&nbsp;mm print / 90&nbsp;px digital.</p>
+      <ul class="rules mutl" style="margin-top:22px">
+        <li><span class="red">✕</span>&nbsp; Don't stretch, rotate or re-crop the brush ring</li>
+        <li><span class="red">✕</span>&nbsp; Don't place the red mark on red or photo backgrounds</li>
+        <li><span class="red">✕</span>&nbsp; Don't add shadows, outlines or gradients</li>
+        <li><span class="gold">✓</span>&nbsp; Do pair the mark with generous empty space</li>
+        <li><span class="gold">✓</span>&nbsp; Do use the mono white mark on Yokoso Red</li>
+      </ul>
+    </div>
+    <div class="tiles" style="margin-top:0">
+      <div class="tile" style="background:#fff;border:1px solid #E3DDD0"><svg class="mk" viewBox="0 0 200 200" style="width:110px;color:var(--red)"><use href="#markg"/></svg><p class="serif" style="font-size:20px;letter-spacing:4px;margin-top:8px">YŌKOSO</p><p class="cap">Primary lockup · light</p></div>
+      <div class="tile" style="background:var(--sumi)"><svg class="mk" viewBox="0 0 200 200" style="width:110px;color:var(--red)"><use href="#markg"/></svg><p class="serif" style="font-size:20px;letter-spacing:4px;margin-top:8px;color:var(--rice)">YŌKOSO</p><p class="cap">Reversed lockup · dark</p></div>
+      <div class="tile" style="background:var(--red)"><svg class="mk" viewBox="0 0 200 200" style="width:100px;color:#fff"><use href="#markg"/></svg><p class="cap" style="color:#FFD9D9">Mono mark · on red</p></div>
+      <div class="tile" style="background:#fff;border:1px solid #E3DDD0"><svg class="mk" viewBox="0 0 200 200" style="width:90px;color:var(--red)"><use href="#markg"/></svg><p class="cap">App icon · avatar use</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="page dark">
+  <p class="label">03 — Colour</p>
+  <h1 class="display serif" style="font-size:38px">One red, remembered</h1>
+  <div class="tiles" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">
+    <div class="swatch" style="background:var(--red)"><svg viewBox="0 0 200 200" style="width:76px;color:#fff;margin-bottom:auto"><use href="#markg"/></svg><h3>YOKOSO RED</h3><p>#F02328 · Pantone 1788 C<br>Primary · signage, mark, accents</p></div>
+    <div class="swatch" style="background:var(--rice);color:var(--ink)"><span class="jp" style="font-size:42px;color:#13131614;margin-bottom:auto">米</span><h3>STEAMED RICE</h3><p style="opacity:.7">#F6F2EA<br>Base · menus, stationery, space</p></div>
+    <div class="swatch" style="background:var(--ink);border:1px solid #33333A"><span class="jp" style="font-size:42px;color:#F6F2EA14;margin-bottom:auto">墨</span><h3>SUMI INK</h3><p>#131316<br>Ground · evening, typography</p></div>
+    <div class="swatch" style="background:var(--gold);color:var(--sumi)"><h3 style="margin-top:auto">LANTERN GOLD</h3><p>#C9A45C<br>Accent · foil, details, ratings</p></div>
+  </div>
+  <div style="display:flex;height:20px;margin-top:32px">
+    <div style="flex:45;background:var(--rice)"></div><div style="flex:25;background:var(--ink)"></div><div style="flex:10;background:var(--red)"></div><div style="flex:5;background:var(--gold)"></div><div style="flex:15;background:#2A2A2F"></div>
+  </div>
+  <p class="label" style="margin:12px 0 0">Usage ratio — Rice 45 · Sumi 25 · Red 10 · Gold 5 (remainder imagery)</p>
+  <p class="body mut" style="font-size:13.5px;margin-top:18px">Red is a signature, not a background wash — let it appear as the mark, a rule, a seal.</p>
+</section>
+
+<section class="page light">
+  <p class="label">04 — Typography</p>
+  <h1 class="display serif" style="font-size:38px;margin-bottom:30px">Editorial serif, quiet sans</h1>
+  <p class="label red" style="margin-bottom:8px">Display · Oranienbaum</p>
+  <p class="serif" style="font-size:clamp(28px,4.6vw,52px)">A table for every arrival</p>
+  <p class="body mutl" style="font-size:13px;margin-top:6px">Headlines, dish names, quotes. Echoes the high-contrast serif of the YŌKOSO wordmark.</p>
+  <div class="rule"></div>
+  <p class="label red" style="margin-bottom:8px">Text · Liter</p>
+  <p style="font-size:18px;line-height:1.7">Happy-hour food · Private dining room · Vegan options<br>৳400–1,600 · Open daily · Al-Madani Tower, Sylhet</p>
+  <p class="body mutl" style="font-size:13px;margin-top:6px">Menus, body copy, wayfinding. Legible at small sizes and in low light.</p>
+  <div class="rule"></div>
+  <p class="label red" style="margin-bottom:8px">Accent · Japanese serif</p>
+  <p class="jp" style="font-size:28px">ようこそ · 歓迎 · いただきます</p>
+  <p class="body mutl" style="font-size:13px;margin-top:6px">Sparingly, as a whisper — seals, chapter marks, wall graphics. Never for prices or essential info.</p>
+  <p class="label" style="margin-top:32px;margin-bottom:0">Scale — Display 48–96 · Subhead 24–32 · Body 14–16 · Caption 11–12, tracking +3</p>
+</section>
+
+<section class="page dark">
+  <p class="label">05 — Graphic Language</p>
+  <h1 class="display serif" style="font-size:38px">Petals from the ensō</h1>
+  <div class="grid2" style="margin-top:26px">
+    <div>
+      <p class="body mut" style="font-size:14px">Two assets carry the system: the <strong style="color:var(--rice)">brush ring</strong> (used whole, never rebuilt) and the <strong style="color:var(--rice)">lantern petal</strong> drawn from its centre. Petals repeat into borders, menu dividers and packaging patterns — always one colour, always flat.</p>
+      <svg viewBox="0 0 100 200" style="width:60px;margin-top:28px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#F02328" stroke-width="4"/></svg>
+      <p class="label" style="margin-top:8px;margin-bottom:0">The petal unit</p>
+    </div>
+    <div>
+      <p class="label gold" style="margin-bottom:12px">Petal border · menus &amp; packaging</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#F02328" stroke-width="5"/></svg>
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="#F02328"/></svg>
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#C9A45C" stroke-width="5"/></svg>
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="#F02328"/></svg>
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#F02328" stroke-width="5"/></svg>
+        <svg viewBox="0 0 100 200" style="width:26px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="#C9A45C"/></svg>
+      </div>
+      <div style="background:var(--red);padding:24px;margin-top:24px;text-align:center">
+        <svg class="mk" viewBox="0 0 200 200" style="width:130px;color:#fff;opacity:.4"><use href="#markg"/></svg>
+        <p class="label" style="color:#FFD9D9;margin:12px 0 0">Brush ring · 30–40% as watermark</p>
+      </div>
+      <div style="border:1px solid #3A3A41;padding:22px;margin-top:22px">
+        <strong class="gold" style="letter-spacing:2px;font-size:12px">PHOTOGRAPHY</strong>
+        <ul class="rules mut" style="font-size:13px;margin-top:6px">
+          <li>· Steam, flame, hands at work</li><li>· Dark wood, ceramic, lantern light</li><li>· Overhead spreads on rice-paper tones</li><li>· Never cold, blue-lit or cluttered</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page light">
+  <p class="label">06 — Print Applications</p>
+  <h1 class="display serif" style="font-size:38px">Card &amp; menu</h1>
+  <div class="tiles" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));align-items:start">
+    <div>
+      <div class="cardbox" style="background:var(--sumi);border-radius:10px;padding:38px;text-align:center"><svg class="mk" viewBox="0 0 200 200" style="width:90px;color:var(--red)"><use href="#markg"/></svg><p class="serif" style="color:var(--rice);font-size:22px;letter-spacing:5px;margin-top:14px">YŌKOSO</p></div>
+      <p class="cap" style="text-align:center;margin:12px 0 22px">Business card · front</p>
+      <div class="cardbox" style="background:#fff;border:1px solid #E3DDD0;border-radius:10px;padding:22px 26px">
+        <p class="serif" style="font-size:19px">Reservations &amp; Events</p>
+        <p style="font-size:12.5px;color:var(--grey);line-height:1.9;margin-top:6px">2nd Floor, Al-Madani Tower, Sylhet<br>Call / WhatsApp · ৳400–1,600 per person<br>Happy-hour food · Private dining · Vegan options</p>
+      </div>
+      <p class="cap" style="text-align:center;margin-top:12px">Business card · back</p>
+    </div>
+    <div>
+      <div class="cardbox" style="background:var(--sumi);padding:40px 26px;text-align:center">
+        <svg class="mk" viewBox="0 0 200 200" style="width:88px;color:var(--red)"><use href="#markg"/></svg>
+        <p class="serif" style="color:var(--rice);font-size:26px;letter-spacing:6px;margin-top:18px">YŌKOSO</p>
+        <p class="jp gold" style="font-size:14px;margin-top:4px">お品書き · MENU</p>
+        <div style="display:flex;gap:8px;justify-content:center;margin-top:22px">
+          <svg viewBox="0 0 100 200" style="width:12px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#F02328" stroke-width="6"/></svg>
+          <svg viewBox="0 0 100 200" style="width:12px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="#F02328"/></svg>
+          <svg viewBox="0 0 100 200" style="width:12px"><path d="M50,0 C82,64 82,136 50,200 C18,136 18,64 50,0 Z" fill="none" stroke="#F02328" stroke-width="6"/></svg>
+        </div>
+        <p class="label" style="margin:22px 0 0;font-size:9px">Pan-Asian kitchen · Sylhet</p>
+      </div>
+      <p class="cap" style="text-align:center;margin-top:12px">Menu cover · A5, gold foil on sumi</p>
+    </div>
+    <div>
+      <strong style="font-size:13px;letter-spacing:1px">PRINT NOTES</strong>
+      <ul class="rules mutl" style="font-size:13.5px;margin-top:10px">
+        <li>· Card: 89 × 51 mm, 400 gsm, matte</li>
+        <li>· Front: Yokoso Red mark, blind-feel stock</li>
+        <li>· Menu: A5, sumi cover, gold foil title</li>
+        <li>· Interior: rice paper, Liter 11 pt, red section rules</li>
+        <li>· Petal border on section dividers only</li>
+        <li>· Red prints as spot Pantone 1788 where possible</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="page dark">
+  <p class="label">07 — Signage &amp; Social</p>
+  <h1 class="display serif" style="font-size:38px">Seen from the street</h1>
+  <div class="grid2" style="margin-top:28px">
+    <div>
+      <div style="background:#0C0C0E;border:1px solid #2C2C31;padding:32px;display:flex;gap:22px;align-items:center;flex-wrap:wrap">
+        <svg viewBox="0 0 200 200" style="width:96px;color:var(--red)"><use href="#markg"/></svg>
+        <div>
+          <p class="serif" style="color:var(--rice);font-size:40px;letter-spacing:8px">YŌKOSO</p>
+          <p class="label gold" style="margin:6px 0 0">Pan-Asian restaurant · 2nd floor</p>
+        </div>
+      </div>
+      <p class="label" style="text-align:center;margin:12px 0 24px">Fascia sign · red mark, warm white face-lit letters</p>
+      <p class="body mut" style="font-size:13.5px;line-height:2">
+        <strong class="gold">SIGNAGE</strong> — mark always in Yokoso Red; wordmark warm white; gold only for secondary lines.<br>
+        <strong class="gold">SOCIAL</strong> — one message per post; serif headline; dish photography on rice or sumi backgrounds; the white mark signs every post, bottom centre.<br>
+        <strong class="gold">MERCHANDISE</strong> — petal border on chopstick sleeves, coasters and takeaway bags; mono white mark on red.</p>
+    </div>
+    <div>
+      <div class="cardbox" style="background:var(--red);border-radius:14px;padding:34px;text-align:center;color:#fff;max-width:340px;margin:0 auto">
+        <p class="jp" style="color:#FFFFFF99;font-size:19px">ようこそ</p>
+        <p class="serif" style="font-size:32px;line-height:1.25;margin-top:16px">Happy hour,<br>Sylhet style.</p>
+        <p style="font-size:13px;color:#FFD9D9;line-height:1.7;margin-top:14px">Pan-Asian small plates, 4–7 PM daily.<br>4.3★ · 587 reviews on Google</p>
+        <svg class="mk" viewBox="0 0 200 200" style="width:48px;color:#fff;margin-top:18px"><use href="#markg"/></svg>
+      </div>
+      <p class="label" style="text-align:center;margin-top:12px">Social post · 1:1, red field + white mark</p>
+    </div>
+  </div>
+</section>
+
+<footer class="page">
+  <span>YOKOSO BRAND IDENTITY · V1.0</span>
+  <span class="jp">ようこそ</span>
+</footer>
+</body>
+</html>
