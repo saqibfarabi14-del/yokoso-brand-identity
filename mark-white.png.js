@@ -1,0 +1,1 @@
+var IMG_MW="data:image/png;base64,PLACEHOLDER";
